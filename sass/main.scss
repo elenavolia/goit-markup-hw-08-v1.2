@@ -1,19 +1,28 @@
-@import "./utils/vars";
-
+@import "./utils/variables";
 @import "./utils/breakpoints";
 
-@import "./general/common";
-@import "./general/container";
+@import "./utils/placeholders";
+
+@import "./base/general";
+@import "./components/common/container";
+@import "./components/common/logo";
+@import "./components/common/section";
+@import "./components/common/button";
 
 @import "./components/header";
-@import "./components/hero";
-@import "./components/modal";
-@import "./components/advantages";
-@import "./components/services";
-@import "./components/team";
-@import "./components/clients";
+
+@import "./components/pages/first/hero";
+@import "./components/pages/first/modal";
+@import "./components/pages/first/advantages";
+@import "./components/pages/first/services";
+@import "./components/pages/first/team";
+@import "./components/pages/first/clients";
+
 @import "./components/footer";
-@import "./components/portfolio-buttons";
-@import "./components/progects";
+
+@import "./components/pages/second/portfolio-buttons";
+@import "./components/pages/second/progects";
+
+@import "./utils/visually-hidden";
 
 @import "./base/normalize";

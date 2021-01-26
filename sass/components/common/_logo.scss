@@ -1,0 +1,55 @@
+.page-header .logo {
+  @extend %link;
+  font-family: $font-family-secondary;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: $main-text-color;
+  display: inline-block;
+  margin-right: 93px;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: $tablet) {
+    margin-right: 92px;
+  }
+}
+.page-header .logo-contrast {
+  color: $selected-text-color;
+  font-family: $font-family-secondary;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+.footer-items .logo {
+  font-family: $font-family-secondary;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: $contrast-text-color;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.footer-items .logo-contrast {
+  color: $selected-text-color;
+}
+
